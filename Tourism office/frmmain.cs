@@ -21,5 +21,17 @@ namespace Tourism_office
         {
 
         }
+
+        private void signInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsignin f1 = new frmsignin();
+            f1.ShowDialog();
+        }
+
+        private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsignup f1= new frmsignup();
+            f1.ShowDialog();
+        }
     }
 }

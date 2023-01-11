@@ -83,12 +83,14 @@
             this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
             this.signInToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.signInToolStripMenuItem.Text = "sign in";
+            this.signInToolStripMenuItem.Click += new System.EventHandler(this.signInToolStripMenuItem_Click);
             // 
             // signUpToolStripMenuItem
             // 
             this.signUpToolStripMenuItem.Name = "signUpToolStripMenuItem";
             this.signUpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.signUpToolStripMenuItem.Text = "sign up";
+            this.signUpToolStripMenuItem.Click += new System.EventHandler(this.signUpToolStripMenuItem_Click);
             // 
             // jprdanToolStripMenuItem
             // 
@@ -116,7 +118,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmmain";
-            this.Text = "frmmain";
+            this.Text = "Home page";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
