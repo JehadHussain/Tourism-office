@@ -40,5 +40,23 @@ namespace Tourism_office
             frmmain f1= new frmmain();
             f1.ShowDialog();
         }
+
+        private void jprdanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmjordan f1= new frmjordan();
+            f1.ShowDialog();
+        }
+
+        private void egyptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmoman f1= new frmoman();
+            f1.ShowDialog();
+        }
+
+        private void lebanonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmlebanon f1= new frmlebanon();
+            f1.ShowDialog();
+        }
     }
 }

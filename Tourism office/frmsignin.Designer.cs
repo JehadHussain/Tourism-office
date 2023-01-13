@@ -122,14 +122,14 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(806, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(806, 28);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // homePageToolStripMenuItem
             // 
             this.homePageToolStripMenuItem.Name = "homePageToolStripMenuItem";
-            this.homePageToolStripMenuItem.Size = new System.Drawing.Size(102, 26);
+            this.homePageToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
             this.homePageToolStripMenuItem.Text = "Home page";
             this.homePageToolStripMenuItem.Click += new System.EventHandler(this.homePageToolStripMenuItem_Click);
             // 
@@ -140,7 +140,7 @@
             this.egyptToolStripMenuItem,
             this.lebanonToolStripMenuItem});
             this.destinationToolStripMenuItem.Name = "destinationToolStripMenuItem";
-            this.destinationToolStripMenuItem.Size = new System.Drawing.Size(99, 26);
+            this.destinationToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
             this.destinationToolStripMenuItem.Text = "Destination";
             // 
             // jprdanToolStripMenuItem
@@ -154,7 +154,7 @@
             // 
             this.egyptToolStripMenuItem.Name = "egyptToolStripMenuItem";
             this.egyptToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.egyptToolStripMenuItem.Text = "Egypt";
+            this.egyptToolStripMenuItem.Text = "Oman";
             this.egyptToolStripMenuItem.Click += new System.EventHandler(this.egyptToolStripMenuItem_Click);
             // 
             // lebanonToolStripMenuItem
@@ -167,7 +167,7 @@
             // hotelsToolStripMenuItem
             // 
             this.hotelsToolStripMenuItem.Name = "hotelsToolStripMenuItem";
-            this.hotelsToolStripMenuItem.Size = new System.Drawing.Size(63, 26);
+            this.hotelsToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.hotelsToolStripMenuItem.Text = "hotels";
             this.hotelsToolStripMenuItem.Click += new System.EventHandler(this.hotelsToolStripMenuItem_Click);
             // 
@@ -177,20 +177,20 @@
             this.signInToolStripMenuItem,
             this.signUpToolStripMenuItem});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 26);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
             // 
             // signInToolStripMenuItem
             // 
             this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            this.signInToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.signInToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.signInToolStripMenuItem.Text = "sign in";
             this.signInToolStripMenuItem.Click += new System.EventHandler(this.signInToolStripMenuItem_Click);
             // 
             // signUpToolStripMenuItem
             // 
             this.signUpToolStripMenuItem.Name = "signUpToolStripMenuItem";
-            this.signUpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.signUpToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.signUpToolStripMenuItem.Text = "sign up";
             this.signUpToolStripMenuItem.Click += new System.EventHandler(this.signUpToolStripMenuItem_Click);
             // 
@@ -300,7 +300,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(821, 471);
             this.Controls.Add(this.lblsignup);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);

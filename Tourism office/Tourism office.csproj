@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmegypt.cs">
+    <Compile Include="frmoman.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmegypt.Designer.cs">
-      <DependentUpon>frmegypt.cs</DependentUpon>
+    <Compile Include="frmoman.Designer.cs">
+      <DependentUpon>frmoman.cs</DependentUpon>
     </Compile>
     <Compile Include="frmjordan.cs">
       <SubType>Form</SubType>
@@ -96,8 +96,8 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmegypt.resx">
-      <DependentUpon>frmegypt.cs</DependentUpon>
+    <EmbeddedResource Include="frmoman.resx">
+      <DependentUpon>frmoman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmjordan.resx">
       <DependentUpon>frmjordan.cs</DependentUpon>

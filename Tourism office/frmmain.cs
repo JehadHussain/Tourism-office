@@ -54,7 +54,7 @@ namespace Tourism_office
 
         private void egyptToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmegypt f1= new frmegypt();
+            frmoman f1= new frmoman();
             f1.ShowDialog();
         }
 

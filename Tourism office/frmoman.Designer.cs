@@ -1,6 +1,6 @@
 ﻿namespace Tourism_office
 {
-    partial class frmegypt
+    partial class frmoman
     {
         /// <summary>
         /// Required designer variable.
@@ -75,20 +75,23 @@
             // jprdanToolStripMenuItem
             // 
             this.jprdanToolStripMenuItem.Name = "jprdanToolStripMenuItem";
-            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
-            this.jprdanToolStripMenuItem.Text = "Jprdan";
+            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jprdanToolStripMenuItem.Text = "Jordan";
+            this.jprdanToolStripMenuItem.Click += new System.EventHandler(this.jprdanToolStripMenuItem_Click);
             // 
             // egyptToolStripMenuItem
             // 
             this.egyptToolStripMenuItem.Name = "egyptToolStripMenuItem";
-            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
-            this.egyptToolStripMenuItem.Text = "Egypt";
+            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.egyptToolStripMenuItem.Text = "Oman";
+            this.egyptToolStripMenuItem.Click += new System.EventHandler(this.egyptToolStripMenuItem_Click);
             // 
             // lebanonToolStripMenuItem
             // 
             this.lebanonToolStripMenuItem.Name = "lebanonToolStripMenuItem";
             this.lebanonToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.lebanonToolStripMenuItem.Text = "Lebanon";
+            this.lebanonToolStripMenuItem.Click += new System.EventHandler(this.lebanonToolStripMenuItem_Click);
             // 
             // hotelsToolStripMenuItem
             // 
@@ -109,25 +112,25 @@
             // signInToolStripMenuItem
             // 
             this.signInToolStripMenuItem.Name = "signInToolStripMenuItem";
-            this.signInToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.signInToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.signInToolStripMenuItem.Text = "sign in";
             this.signInToolStripMenuItem.Click += new System.EventHandler(this.signInToolStripMenuItem_Click);
             // 
             // signUpToolStripMenuItem
             // 
             this.signUpToolStripMenuItem.Name = "signUpToolStripMenuItem";
-            this.signUpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.signUpToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.signUpToolStripMenuItem.Text = "sign up";
             this.signUpToolStripMenuItem.Click += new System.EventHandler(this.signUpToolStripMenuItem_Click);
             // 
-            // frmegypt
+            // frmoman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "frmegypt";
-            this.Text = "Egypt";
+            this.Name = "frmoman";
+            this.Text = "Oman";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -86,14 +86,14 @@
             // 
             this.jprdanToolStripMenuItem.Name = "jprdanToolStripMenuItem";
             this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.jprdanToolStripMenuItem.Text = "Jprdan";
+            this.jprdanToolStripMenuItem.Text = "Jordan";
             this.jprdanToolStripMenuItem.Click += new System.EventHandler(this.jprdanToolStripMenuItem_Click);
             // 
             // egyptToolStripMenuItem
             // 
             this.egyptToolStripMenuItem.Name = "egyptToolStripMenuItem";
             this.egyptToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.egyptToolStripMenuItem.Text = "Egypt";
+            this.egyptToolStripMenuItem.Text = "Oman";
             this.egyptToolStripMenuItem.Click += new System.EventHandler(this.egyptToolStripMenuItem_Click);
             // 
             // lebanonToolStripMenuItem

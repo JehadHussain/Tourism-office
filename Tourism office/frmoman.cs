@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tourism_office
 {
-    public partial class frmegypt : Form
+    public partial class frmoman : Form
     {
-        public frmegypt()
+        public frmoman()
         {
             InitializeComponent();
         }
@@ -38,6 +38,24 @@ namespace Tourism_office
         private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmsignup f1= new frmsignup();
+            f1.ShowDialog();
+        }
+
+        private void jprdanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmjordan f1 = new frmjordan();
+            f1.ShowDialog();
+        }
+
+        private void egyptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmoman f1 = new frmoman();
+            f1.ShowDialog();
+        }
+
+        private void lebanonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmlebanon f1 = new frmlebanon();
             f1.ShowDialog();
         }
     }
