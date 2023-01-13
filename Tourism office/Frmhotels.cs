@@ -10,28 +10,11 @@ using System.Windows.Forms;
 
 namespace Tourism_office
 {
-    public partial class frmmain : Form
+    public partial class Frmhotels : Form
     {
-        public frmmain()
+        public Frmhotels()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void signInToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmsignin f1 = new frmsignin();
-            f1.ShowDialog();
-        }
-
-        private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmsignup f1= new frmsignup();
-            f1.ShowDialog();
         }
 
         private void homePageToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,7 +25,29 @@ namespace Tourism_office
 
         private void hotelsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frmhotels f1= new Frmhotels();
+            Frmhotels f1 = new Frmhotels();
+            f1.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Frmhotels_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void signInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsignin f1= new frmsignin();
+            f1.ShowDialog();
+        }
+
+        private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsignup f1= new frmsignup();
             f1.ShowDialog();
         }
 
@@ -54,7 +59,7 @@ namespace Tourism_office
 
         private void egyptToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmegypt f1= new frmegypt();
+            frmegypt f1 = new frmegypt();
             f1.ShowDialog();
         }
 

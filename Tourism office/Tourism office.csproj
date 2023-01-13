@@ -46,17 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmegypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmegypt.Designer.cs">
+      <DependentUpon>frmegypt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmjordan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmjordan.Designer.cs">
+      <DependentUpon>frmjordan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmhotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmhotels.Designer.cs">
+      <DependentUpon>Frmhotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlebanon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlebanon.Designer.cs">
+      <DependentUpon>frmlebanon.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmsignup.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmsignup.Designer.cs">
       <DependentUpon>frmsignup.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmlogin.cs">
+    <Compile Include="frmsignin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmlogin.Designer.cs">
-      <DependentUpon>frmlogin.cs</DependentUpon>
+    <Compile Include="frmsignin.Designer.cs">
+      <DependentUpon>frmsignin.cs</DependentUpon>
     </Compile>
     <Compile Include="frmmain.cs">
       <SubType>Form</SubType>
@@ -72,8 +96,20 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmlogin.resx">
-      <DependentUpon>frmlogin.cs</DependentUpon>
+    <EmbeddedResource Include="frmegypt.resx">
+      <DependentUpon>frmegypt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmjordan.resx">
+      <DependentUpon>frmjordan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmhotels.resx">
+      <DependentUpon>Frmhotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlebanon.resx">
+      <DependentUpon>frmlebanon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmsignin.resx">
+      <DependentUpon>frmsignin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmmain.resx">
       <DependentUpon>frmmain.cs</DependentUpon>

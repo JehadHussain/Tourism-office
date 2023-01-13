@@ -10,27 +10,22 @@ using System.Windows.Forms;
 
 namespace Tourism_office
 {
-    public partial class frmmain : Form
+    public partial class frmsignin : Form
     {
-        public frmmain()
+        public frmsignin()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            frmmain f1=new frmmain();
+            f1.ShowDialog();
         }
 
         private void signInToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmsignin f1 = new frmsignin();
-            f1.ShowDialog();
-        }
-
-        private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmsignup f1= new frmsignup();
             f1.ShowDialog();
         }
 
@@ -40,9 +35,41 @@ namespace Tourism_office
             f1.ShowDialog();
         }
 
+        private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmsignup f1 = new frmsignup();
+            f1.ShowDialog();
+        }
+
         private void hotelsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frmhotels f1= new Frmhotels();
+            Frmhotels f1 = new Frmhotels();
+            f1.ShowDialog();
+        }
+
+        private void lblusername_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtusername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblpassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblsignup_Click(object sender, EventArgs e)
+        {
+            frmsignup f1 = new frmsignup();
             f1.ShowDialog();
         }
 

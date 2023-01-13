@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Tourism_office
 {
-    public partial class frmmain : Form
+    public partial class frmlebanon : Form
     {
-        public frmmain()
+        public frmlebanon()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void signInToolStripMenuItem_Click(object sender, EventArgs e)
@@ -34,33 +29,15 @@ namespace Tourism_office
             f1.ShowDialog();
         }
 
-        private void homePageToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmmain f1 = new frmmain();
-            f1.ShowDialog();
-        }
-
         private void hotelsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frmhotels f1= new Frmhotels();
             f1.ShowDialog();
         }
 
-        private void jprdanToolStripMenuItem_Click(object sender, EventArgs e)
+        private void homePageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmjordan f1= new frmjordan();
-            f1.ShowDialog();
-        }
-
-        private void egyptToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmegypt f1= new frmegypt();
-            f1.ShowDialog();
-        }
-
-        private void lebanonToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmlebanon f1= new frmlebanon();
+            frmmain f1= new frmmain();
             f1.ShowDialog();
         }
     }

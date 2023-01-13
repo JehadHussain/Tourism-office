@@ -1,6 +1,6 @@
 ﻿namespace Tourism_office
 {
-    partial class frmsignup
+    partial class Frmhotels
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmsignup));
-            this.txtpassword = new System.Windows.Forms.TextBox();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.lblpassword = new System.Windows.Forms.Label();
-            this.lblusername = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frmhotels));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.homePageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.destinationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,63 +39,46 @@
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.signInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.signUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblconpassword = new System.Windows.Forms.Label();
-            this.txtconpassword = new System.Windows.Forms.TextBox();
-            this.lblconfiger = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblsignup = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtpassword
-            // 
-            this.txtpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.Location = new System.Drawing.Point(254, 155);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(258, 34);
-            this.txtpassword.TabIndex = 7;
-            // 
-            // txtusername
-            // 
-            this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(254, 85);
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(258, 34);
-            this.txtusername.TabIndex = 6;
-            // 
-            // lblpassword
-            // 
-            this.lblpassword.AutoSize = true;
-            this.lblpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblpassword.Location = new System.Drawing.Point(12, 158);
-            this.lblpassword.Name = "lblpassword";
-            this.lblpassword.Size = new System.Drawing.Size(120, 29);
-            this.lblpassword.TabIndex = 5;
-            this.lblpassword.Text = "Password";
-            // 
-            // lblusername
-            // 
-            this.lblusername.AutoSize = true;
-            this.lblusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusername.Location = new System.Drawing.Point(12, 79);
-            this.lblusername.Name = "lblusername";
-            this.lblusername.Size = new System.Drawing.Size(135, 29);
-            this.lblusername.TabIndex = 4;
-            this.lblusername.Text = "User Name";
             // 
             // menuStrip1
             // 
@@ -111,8 +90,8 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(779, 28);
-            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Size = new System.Drawing.Size(787, 28);
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // homePageToolStripMenuItem
@@ -183,69 +162,41 @@
             this.signUpToolStripMenuItem.Text = "sign up";
             this.signUpToolStripMenuItem.Click += new System.EventHandler(this.signUpToolStripMenuItem_Click);
             // 
-            // lblconpassword
+            // groupBox3
             // 
-            this.lblconpassword.AutoSize = true;
-            this.lblconpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblconpassword.Location = new System.Drawing.Point(12, 242);
-            this.lblconpassword.Name = "lblconpassword";
-            this.lblconpassword.Size = new System.Drawing.Size(210, 29);
-            this.lblconpassword.TabIndex = 9;
-            this.lblconpassword.Text = "Confirm Password";
+            this.groupBox3.Controls.Add(this.panel2);
+            this.groupBox3.Controls.Add(this.pictureBox8);
+            this.groupBox3.Controls.Add(this.pictureBox3);
+            this.groupBox3.Location = new System.Drawing.Point(46, 369);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(336, 252);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
             // 
-            // txtconpassword
+            // panel2
             // 
-            this.txtconpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtconpassword.Location = new System.Drawing.Point(254, 242);
-            this.txtconpassword.Name = "txtconpassword";
-            this.txtconpassword.PasswordChar = '*';
-            this.txtconpassword.Size = new System.Drawing.Size(258, 34);
-            this.txtconpassword.TabIndex = 10;
+            this.panel2.Location = new System.Drawing.Point(-86, 272);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(873, 60);
+            this.panel2.TabIndex = 0;
             // 
-            // lblconfiger
+            // pictureBox8
             // 
-            this.lblconfiger.AutoSize = true;
-            this.lblconfiger.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblconfiger.Location = new System.Drawing.Point(17, 321);
-            this.lblconfiger.Name = "lblconfiger";
-            this.lblconfiger.Size = new System.Drawing.Size(90, 29);
-            this.lblconfiger.TabIndex = 11;
-            this.lblconfiger.Text = "gender";
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(125, 216);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(31, 30);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
             // 
-            // radioButton1
+            // pictureBox3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(185, 319);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(87, 33);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(396, 319);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(116, 33);
-            this.radioButton2.TabIndex = 13;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(316, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 46);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Sign up";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pictureBox3.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(324, 159);
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
             // 
             // panel1
             // 
@@ -256,10 +207,10 @@
             this.panel1.Controls.Add(this.pictureBox9);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 527);
+            this.panel1.Location = new System.Drawing.Point(0, 721);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(779, 145);
-            this.panel1.TabIndex = 15;
+            this.panel1.Size = new System.Drawing.Size(787, 145);
+            this.panel1.TabIndex = 6;
             // 
             // label3
             // 
@@ -311,62 +262,155 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "contact us";
             // 
-            // lblsignup
+            // groupBox4
             // 
-            this.lblsignup.AutoSize = true;
-            this.lblsignup.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.lblsignup.Location = new System.Drawing.Point(467, 427);
-            this.lblsignup.Name = "lblsignup";
-            this.lblsignup.Size = new System.Drawing.Size(36, 16);
-            this.lblsignup.TabIndex = 18;
-            this.lblsignup.Text = "login";
-            this.lblsignup.Click += new System.EventHandler(this.lblsignup_Click);
+            this.groupBox4.Controls.Add(this.panel3);
+            this.groupBox4.Controls.Add(this.pictureBox4);
+            this.groupBox4.Controls.Add(this.pictureBox7);
+            this.groupBox4.Location = new System.Drawing.Point(416, 369);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(336, 252);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
             // 
-            // label5
+            // panel3
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(283, 427);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(167, 16);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "allready have an account ?";
+            this.panel3.Location = new System.Drawing.Point(-86, 272);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(873, 60);
+            this.panel3.TabIndex = 0;
             // 
-            // panel2
+            // pictureBox4
             // 
-            this.panel2.Location = new System.Drawing.Point(22, 466);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(745, 61);
-            this.panel2.TabIndex = 19;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(125, 216);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
             // 
-            // frmsignup
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(324, 159);
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.panel4);
+            this.groupBox2.Controls.Add(this.pictureBox2);
+            this.groupBox2.Controls.Add(this.pictureBox6);
+            this.groupBox2.Location = new System.Drawing.Point(416, 67);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(336, 252);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(-86, 272);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(873, 60);
+            this.panel4.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(125, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(324, 159);
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.panel5);
+            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Location = new System.Drawing.Point(52, 67);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(336, 252);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(-86, 272);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(873, 60);
+            this.panel5.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(125, 216);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Location = new System.Drawing.Point(6, 12);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(324, 159);
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.Location = new System.Drawing.Point(3, 621);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(784, 100);
+            this.panel6.TabIndex = 9;
+            // 
+            // Frmhotels
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.lblsignup);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.lblconfiger);
-            this.Controls.Add(this.txtconpassword);
-            this.Controls.Add(this.lblconpassword);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.txtpassword);
-            this.Controls.Add(this.txtusername);
-            this.Controls.Add(this.lblpassword);
-            this.Controls.Add(this.lblusername);
-            this.Name = "frmsignup";
-            this.Text = "Sign up";
+            this.Name = "Frmhotels";
+            this.Text = "Frmhotels";
+            this.Load += new System.EventHandler(this.Frmhotels_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,34 +418,38 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtpassword;
-        private System.Windows.Forms.TextBox txtusername;
-        private System.Windows.Forms.Label lblpassword;
-        private System.Windows.Forms.Label lblusername;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem homePageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem destinationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem jprdanToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem egyptToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lebanonToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hotelsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem signInToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem signUpToolStripMenuItem;
-        private System.Windows.Forms.Label lblconpassword;
-        private System.Windows.Forms.TextBox txtconpassword;
-        private System.Windows.Forms.Label lblconfiger;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ToolStripMenuItem hotelsToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblsignup;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panel6;
     }
 }
