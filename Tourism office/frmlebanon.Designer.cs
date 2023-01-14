@@ -239,7 +239,7 @@
             treeNode17,
             treeNode19});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(507, 160);
+            this.treeView1.Size = new System.Drawing.Size(507, 199);
             this.treeView1.TabIndex = 6;
             // 
             // label3
@@ -259,7 +259,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Tourism_office.Properties.Resources.lebanese_red_white_green_cedar_tree_flag_waving_wind_sea_background_byblos_lebanon_arabic_asia_banner_160334023;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(807, 457);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.label2);

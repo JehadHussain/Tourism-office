@@ -19,8 +19,12 @@ namespace Tourism_office
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmmain f1= new frmmain();
+            if(txtusername.Text.Length!=0 && txtpassword.Text.Length!=0 && txtconpassword.Text.Length!=0)
+            {
+              frmmain f1= new frmmain();
             f1.ShowDialog();
+            }
+            
         }
 
         private void signInToolStripMenuItem_Click(object sender, EventArgs e)

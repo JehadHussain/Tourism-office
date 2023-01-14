@@ -105,7 +105,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(732, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(742, 28);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -263,7 +263,7 @@
             treeNode24,
             treeNode27});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(488, 167);
+            this.treeView1.Size = new System.Drawing.Size(488, 228);
             this.treeView1.TabIndex = 5;
             // 
             // label2
@@ -294,7 +294,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Tourism_office.Properties.Resources.MCT_jpg_1533900761639_image_750_563_low;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(753, 450);
+            this.ClientSize = new System.Drawing.Size(763, 463);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.treeView1);

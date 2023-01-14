@@ -149,7 +149,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(779, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 28);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -256,7 +256,7 @@
             // 
             // treeView1
             // 
-            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeView1.Location = new System.Drawing.Point(12, 432);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "Node1";
@@ -382,7 +382,7 @@
             treeNode48,
             treeNode50});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(614, 207);
+            this.treeView1.Size = new System.Drawing.Size(614, 229);
             this.treeView1.TabIndex = 6;
             // 
             // frmjordan
@@ -392,7 +392,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Tourism_office.Properties.Resources.Riyam_heights_Mutrah_Sultanate_of_Oman_Muscat;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 427);
+            this.ClientSize = new System.Drawing.Size(805, 433);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
