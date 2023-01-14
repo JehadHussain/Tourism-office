@@ -111,7 +111,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(779, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -135,14 +135,14 @@
             // jprdanToolStripMenuItem
             // 
             this.jprdanToolStripMenuItem.Name = "jprdanToolStripMenuItem";
-            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.jprdanToolStripMenuItem.Text = "Jordan";
             this.jprdanToolStripMenuItem.Click += new System.EventHandler(this.jprdanToolStripMenuItem_Click);
             // 
             // egyptToolStripMenuItem
             // 
             this.egyptToolStripMenuItem.Name = "egyptToolStripMenuItem";
-            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.egyptToolStripMenuItem.Text = "Oman";
             this.egyptToolStripMenuItem.Click += new System.EventHandler(this.egyptToolStripMenuItem_Click);
             // 
@@ -258,7 +258,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 527);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(779, 145);
+            this.panel1.Size = new System.Drawing.Size(800, 145);
             this.panel1.TabIndex = 15;
             // 
             // label3
@@ -305,7 +305,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(129, 60);
+            this.label1.Location = new System.Drawing.Point(119, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 32);
             this.label1.TabIndex = 0;
@@ -343,7 +343,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(821, 471);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.lblsignup);
             this.Controls.Add(this.label5);

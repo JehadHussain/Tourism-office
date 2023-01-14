@@ -125,6 +125,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -138,6 +139,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Riyam-heights-Mutrah-Sultanate-of-Oman-Muscat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebanese-red-white-green-cedar-tree-flag-waving-wind-sea-background-byblos-lebanon-arabic-asia-banner-160334023.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCT.jpg.1533900761639.image.750.563.low.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GALLERY_01_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leonardo-1310172-Exterior_O-510211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grand-hyatt-muscat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exterior-view.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

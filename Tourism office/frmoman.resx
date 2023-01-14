@@ -120,4 +120,16 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Oman, ” The True Arabia ”, as it is often mentioned, is a land of ancient culture and
+ beautifully preserved nature. The people of Oman have a well-deserved reputation
+ as they are known to be the most hospitable people in the world.
+
+Their smiling faces are a great proof of their enthusiasm for sharing their unique 
+culture with tourists and visitors. You will always hear great testimonials and stories
+ about local hospitality from travelers who have visited Oman.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
 </root>

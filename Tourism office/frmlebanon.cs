@@ -58,5 +58,15 @@ namespace Tourism_office
             frmlebanon f1= new frmlebanon();
             f1.ShowDialog();
         }
+
+        private void frmlebanon_Load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.Transparent;
+        }
+
+        private void frmlebanon_Load_1(object sender, EventArgs e)
+        {
+            label1.BackColor= Color.Transparent;
+        }
     }
 }

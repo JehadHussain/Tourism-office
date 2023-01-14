@@ -45,6 +45,8 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -61,7 +63,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(779, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -85,21 +87,21 @@
             // jprdanToolStripMenuItem
             // 
             this.jprdanToolStripMenuItem.Name = "jprdanToolStripMenuItem";
-            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jprdanToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.jprdanToolStripMenuItem.Text = "Jordan";
             this.jprdanToolStripMenuItem.Click += new System.EventHandler(this.jprdanToolStripMenuItem_Click);
             // 
             // egyptToolStripMenuItem
             // 
             this.egyptToolStripMenuItem.Name = "egyptToolStripMenuItem";
-            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.egyptToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.egyptToolStripMenuItem.Text = "Oman";
             this.egyptToolStripMenuItem.Click += new System.EventHandler(this.egyptToolStripMenuItem_Click);
             // 
             // lebanonToolStripMenuItem
             // 
             this.lebanonToolStripMenuItem.Name = "lebanonToolStripMenuItem";
-            this.lebanonToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lebanonToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.lebanonToolStripMenuItem.Text = "Lebanon";
             this.lebanonToolStripMenuItem.Click += new System.EventHandler(this.lebanonToolStripMenuItem_Click);
             // 
@@ -142,9 +144,9 @@
             this.panel1.Controls.Add(this.pictureBox9);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 305);
+            this.panel1.Location = new System.Drawing.Point(0, 397);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 145);
+            this.panel1.Size = new System.Drawing.Size(779, 145);
             this.panel1.TabIndex = 7;
             // 
             // label3
@@ -197,12 +199,33 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "contact us";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 56);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(742, 225);
+            this.label4.TabIndex = 8;
+            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(17, 344);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(737, 53);
+            this.panel2.TabIndex = 9;
+            // 
             // frmmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -238,6 +261,8 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

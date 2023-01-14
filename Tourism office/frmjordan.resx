@@ -120,4 +120,18 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>The Hashemite Kingdom of Jordan is a fairly young country, but it is steeped in history,
+ like a well-traveled bridge between sea and desert, East and West.
+
+Formerly the Aminite capital of Rabbath-Ammon and later the Greco-Roman city
+ of Philadelphia, Amman has been the capital since 1921. Thus, it has several stories,
+ from various historical eras to uncover.
+
+One has to visit the citadel, the old souk and the Roman theater in the heart of the city
+. For lovers of Islamic art, you have the National Gallery of Jordan to visit.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>48</value>
+  </metadata>
 </root>
